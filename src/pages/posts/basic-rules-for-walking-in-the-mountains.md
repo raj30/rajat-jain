@@ -28,3 +28,15 @@ subtitle: ''
   Einstein came in very handy over here to solve this situation and play around with the implementation in einstein/AI way. Here is the flow which depicts a very small part of the real scenario.
 
 ![](/images/Einstein Flow Chart (1).png)
+
+* **Convert Lead to Opportunity**
+
+   Let's create a Next best Action which includes
+  * Flow (To Convert The Lead)
+  * Apex Class (Contains the Mapping of Lead to Opportunity fields - Invoked by Flow)
+
+    Additional Conditions
+  * Only one choice can be selected in the interval of 90 Days.
+  * It will appear only when Lead Status is ‘Working - Contacted’
+
+    ![](/images/Convert Lead.png)
