@@ -27,7 +27,7 @@ subtitle: ''
 
   Einstein came in very handy over here to solve this situation and play around with the implementation in einstein/AI way. Here is the flow which depicts a very small part of the real scenario.
 
-![](/images/Einstein Flow Chart (1).png)
+![Lead Conversion Flow](/images/Einstein Flow Chart (1).png "Lead Conversion Flow")
 
 * **Convert Lead to Opportunity**
 
