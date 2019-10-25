@@ -31,6 +31,13 @@ module.exports = {
             }
         },
         {
+            resolve: 'gatsby-plugin-google-analytics',
+            options: {
+                trackingId: 'UA-150911793-1',
+
+            }
+        },
+        {
             resolve: `@stackbit/gatsby-plugin-menus`,
             options: {
                 sourceUrlPath: `fields.url`,
