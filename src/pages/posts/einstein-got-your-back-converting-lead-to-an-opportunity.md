@@ -13,7 +13,7 @@ subtitle: ''
   We are using AI in our day to day life from drafting an email to shopping online to increase productivity and make our lives easy. AI is opening a new world of opportunities and learning for everybody. Salesforce offers the same capabilities and the platform is named **Salesforce Einstein**.
 
   Salesforce Einstein has offered multiple features and I have been using these 2 features on a regular basis, that is
-  * **Einstein Prediction Builder** - It is a simple point-click wizard that allows you to make custom predictions on your non-encrypted Salesforce data, fast
+  * **Einstein Prediction Builder** - It is a simple point-click wizard that allows you to make custom predictions on your non-encrypted Salesforce data, fast.
   * **Einstein Next Best Action** - It allows you to use rules-based and predictive models to provide intelligent recommendations and suggestions.
 
     Here is the first of a series of blog posts and I would like to discuss one use case scenario to showcase how Salesforce Einstein can help to solve real-time problems with minimal or no code.
