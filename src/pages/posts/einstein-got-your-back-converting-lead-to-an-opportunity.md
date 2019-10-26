@@ -19,7 +19,7 @@ subtitle: ''
     Here is the first of a series of blog posts and I would like to discuss one use case scenario to showcase how Salesforce Einstein can help to solve real-time problems with minimal or no code.
 * **Use Case**
 
-  Let's assume a client is switching to the Salesforce CRM platform to maintain their business and automate their work. Which would require to use Salesforce Objects like (Lead, Contact, Account, Opportunity and Quote, Products. Major focus of the business goes around to guide a Sales Rep, starting from Lead Creation to closing deals with proper feedback, and also receive payments.
+  Let's assume a client is switching to the Salesforce CRM platform to maintain their business and automate their work. Which would require to use Salesforce objects like (Lead, Contact, Account, Opportunity and Quote, Products. Major focus of the business goes around to guide a sales rep, starting from lead creation to closing deals with proper feedback, and also receive payments.
 * **Implementation**
 
   Einstein came in very handy over here to solve this situation and play around with the implementation in einstein/AI way. Here is the flow which depicts a very small part of the real scenario.
@@ -29,23 +29,23 @@ subtitle: ''
 1. **Convert Lead to Opportunity**
 
    Let's create a Next best Action which includes
-   * Flow (To Convert The Lead)
-   * Apex Class (Contains the Mapping of Lead to Opportunity fields - Invoked by Flow)
-   * Only one choice can be selected in the interval of 90 Days
-   * It will appear only when Lead Status is ‘Working - Contacted’
+   * Flow (To convert the lead)
+   * Apex Class (Contains the mapping of lead to opportunity fields - Invoked by flow)
+   * Only one choice can be selected in the interval of 90 days
+   * It will appear only when lead status is ‘Working - Contacted’
 
    ![Lead Conversion](/images/Convert Lead.png "Lead Conversion")
 2. **Predict Closed Won Opportunities**
 
-   Let's create one Einstein Prediction Builder to predict the Closed Won probability of an ongoing opportunity. I have used a custom formula field which returns true if Opp Stage is ‘Closed Won’ otherwise returns false. The result is saved in another custom field as a checkbox and it helps to create a custom list view that shows all the possible ‘Closed Won’ Opportunities after successfully enabling the prediction builder.
+   Let's create one Einstein Prediction Builder to predict the 'Closed Won' probability of an ongoing opportunity. I have used a custom formula field which returns true if Opp Stage is ‘Closed Won’ otherwise returns false. The result is saved in another custom field as a checkbox and it helps to create a custom list view that shows all the possible ‘Closed Won’ opportunities after successfully enabling the prediction builder.
 
    ![Prediction Builder](/images/Prediction Builder.png "Prediction Builder")
 3. **Suggest Quotation based on Opp Line Items**
 
    Let's create a Next best Action which includes
    * Flow (To create Quotes and Quote Line Items)
-   * Only one choice can be selected in the interval of 90 Days
-   * It will appear only when the Opportunity Stage is ‘Needs Analysis’
+   * Only one choice can be selected in the interval of 90 days
+   * It will appear only when the Opportunity stage is ‘Needs Analysis’
 
    ![](/images/Show Quotes 1.png)
 
