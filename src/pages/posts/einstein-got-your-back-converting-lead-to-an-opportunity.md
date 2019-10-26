@@ -33,8 +33,10 @@ subtitle: ''
    * Apex Class (Contains the Mapping of Lead to Opportunity fields - Invoked by Flow)
 
      Additional Conditions
-   * Only one choice can be selected in the interval of 90 Days.
-   * It will appear only when Lead Status is ‘Working - Contacted
+     * Only one choice can be selected in the interval of 90 Days.
+
+
+     * It will appear only when Lead Status is ‘Working - Contacted
 
      ![Convert Lead](/images/Convert Lead.png "Convert Lead")
 2. **Predict Closed Won Opportunities**
