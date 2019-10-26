@@ -28,17 +28,13 @@ subtitle: ''
 
 1. **Convert Lead to Opportunity**
 
-   Let's create a Next best Action which includes
+   Let's create a Next Best Action which includes
    * Flow (To Convert The Lead)
    * Apex Class (Contains the Mapping of Lead to Opportunity fields - Invoked by Flow)
 
-     Additional Conditions
-     * Only one choice can be selected in the interval of 90 Days.
-
-
-     * It will appear only when Lead Status is ‘Working - Contacted
-
-     ![Convert Lead](/images/Convert Lead.png "Convert Lead")
+   Additional Conditions
+   * Only one choice can be selected in the interval of 90 Days.
+   * It will appear only when Lead Status is ‘Working - Contacted’
 2. **Predict Closed Won Opportunities**
 
    Let's create one Einstein Prediction Builder to predict the Closed Won probability of an ongoing opportunity. I have used a custom formula field which returns true if Opp Stage is ‘Closed Won’ otherwise returns false. The result is saved in another custom field as a checkbox and it helps to create a custom list view that shows all the possible ‘Closed Won’ Opportunities after successfully enabling the prediction builder.
@@ -49,8 +45,7 @@ subtitle: ''
    Let's create another a Next best Action which includes
    * Flow (To create Quotes and Quote Line Items)
 
-     <br/>
-   * Additional Conditions
+     Additional Conditions
      * Only one choice can be selected in the interval of 90 Days.
      * It will appear only when the Opportunity Stage is ‘Needs Analysis’
 
