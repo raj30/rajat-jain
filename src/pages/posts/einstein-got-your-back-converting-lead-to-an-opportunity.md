@@ -33,12 +33,23 @@ subtitle: ''
    * Apex Class (Contains the Mapping of Lead to Opportunity fields - Invoked by Flow)
    * Only one choice can be selected in the interval of 90 Days.
    * It will appear only when Lead Status is ‘Working - Contacted’
+
+   ![Lead Conversion](/images/Convert Lead.png "Lead Conversion")
 2. **Predict Closed Won Opportunities**
 
    Let's create one Einstein Prediction Builder to predict the Closed Won probability of an ongoing opportunity. I have used a custom formula field which returns true if Opp Stage is ‘Closed Won’ otherwise returns false. The result is saved in another custom field as a checkbox and it helps to create a custom list view that shows all the possible ‘Closed Won’ Opportunities after successfully enabling the prediction builder.
 
    ![Prediction Builder](/images/Prediction Builder.png "Prediction Builder")
 3. **Suggest Quotation based on Opp Line Items**
+
+   Let's create a Next best Action which includes
+   * Flow (To create Quotes and Quote Line Items)
+   * Only one choice can be selected in the interval of 90 Days.
+   * It will appear only when the Opportunity Stage is ‘Needs Analysis’
+
+   ![](/images/Show Quotes 1.png)
+
+   ![Show Quotes 2](/images/Show Quotes 2.png "Show Quotes 2")
 
 * **Future Enhancements**
 
@@ -48,7 +59,7 @@ subtitle: ''
     * To suggest appointment-free slots if needed
   * Next Best Action
     * To send feedback form links
-    * To send payment links if an
+    * To send payment links if any
 
 Feel free to drop your queries, feedback or comments via the ‘contact us’ section of the website, and I will try to respond back to queries with the best of my knowledge.
 
