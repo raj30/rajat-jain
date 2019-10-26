@@ -32,7 +32,7 @@ subtitle: ''
    * Flow (To Convert The Lead)
    * Apex Class (Contains the Mapping of Lead to Opportunity fields - Invoked by Flow)
 
-   Additional Conditions
+   **Additional Conditions**
    * Only one choice can be selected in the interval of 90 Days.
    * It will appear only when Lead Status is ‘Working - Contacted’
 2. **Predict Closed Won Opportunities**
@@ -41,17 +41,6 @@ subtitle: ''
 
    ![Prediction Builder](/images/Prediction Builder.png "Prediction Builder")
 3. **Suggest Quotation based on Opp Line Items**
-
-   Let's create another a Next best Action which includes
-   * Flow (To create Quotes and Quote Line Items)
-
-     Additional Conditions
-     * Only one choice can be selected in the interval of 90 Days.
-     * It will appear only when the Opportunity Stage is ‘Needs Analysis’
-
-     ![](/images/Show Quotes 1.png)
-
-     ![Show Quotes 2](/images/Show Quotes 2.png "Show Quotes 2")
 
 * **Future Enhancements**
 
