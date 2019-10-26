@@ -53,7 +53,7 @@ subtitle: ''
 
 * **Future Enhancements**
 
-  As per the current business flow, these are some future enhancements can be done using Salesforce Einstein
+  As per the current business flow, these are some future enhancements that can be done using Salesforce Einstein
   * Prediction Builder
     * To suggest which sales rep is available
     * To suggest appointment-free slots if needed
