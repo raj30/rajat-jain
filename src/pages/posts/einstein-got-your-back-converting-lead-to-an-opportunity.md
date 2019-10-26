@@ -55,11 +55,11 @@ subtitle: ''
 
   As per the current business flow, these are some future enhancements that can be done using Salesforce Einstein
   * Prediction Builder
-    * To suggest which sales rep is available
-    * To suggest appointment-free slots if needed
+    * To suggest which of the sales rep is available
+    * To suggest appointment-free slots, if needed
   * Next Best Action
     * To send feedback form links
-    * To send payment links if any
+    * To send payment links, if any
 
 Feel free to drop your queries, feedback or comments via the ‘contact us’ section of the website, and I will try to respond back to queries with the best of my knowledge.
 
