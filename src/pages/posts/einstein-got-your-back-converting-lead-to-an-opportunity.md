@@ -51,22 +51,25 @@ subtitle: ''
    * Additional Conditions
      * Only one choice can be selected in the interval of 90 Days.
      * It will appear only when the Opportunity Stage is ‘Needs Analysis’
-   * ![Show Quotes 1](/images/Show Quotes 1.png "Show Quotes 1")
-   * ![Show Quotes 2](/images/Show Quotes 2.png "Show Quotes 2")
-   * 
-     * **Future Enhancements**
 
-       As per the current business flow, these are some future enhancements can be done using Salesforce Einstein
-     * Prediction Builder
-       * To suggest which sales rep is available
-       * To suggest appointment-free slots if needed
-     * Next Best Action
-       * To send feedback form links
-       * To send payment links if an
+     ![](/images/Show Quotes 1.png)
+
+     ![Show Quotes 2](/images/Show Quotes 2.png "Show Quotes 2")
+
+* **Future Enhancements**
+
+  As per the current business flow, these are some future enhancements can be done using Salesforce Einstein
+  * Prediction Builder
+    * To suggest which sales rep is available
+    * To suggest appointment-free slots if needed
+  * Next Best Action
+    * To send feedback form links
+    * To send payment links if any
 
 Feel free to drop your queries, feedback or comments via the ‘contact us’ section of the website, and I will try to respond back to queries with the best of my knowledge.
 
-* **Useful Links**
-  1. [Salesforce Einstein Basics](https://trailhead.salesforce.com/en/content/learn/modules/get_smart_einstein_feat "Salesforce Einstein Basics")
-  2. [Einstein Prediction Builder Tutorial](https://trailhead.salesforce.com/en/content/learn/modules/einstein-prediction-builder "Einstein Prediction Builder Tutorial")
-  3. [Einstein Next Best Action](https://trailhead.salesforce.com/en/content/learn/modules/einstein-next-best-action "Einstein Next Best Action")
+**Useful Links**
+
+1. [Salesforce Einstein Basics](https://trailhead.salesforce.com/en/content/learn/modules/get_smart_einstein_feat "Salesforce Einstein Basics")
+2. [Einstein Prediction Builder Tutorial](https://trailhead.salesforce.com/en/content/learn/modules/einstein-prediction-builder "Einstein Prediction Builder Tutorial")
+3. [Einstein Next Best Action](https://trailhead.salesforce.com/en/content/learn/modules/einstein-next-best-action "Einstein Next Best Action")
