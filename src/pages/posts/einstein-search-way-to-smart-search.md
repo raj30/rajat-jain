@@ -3,7 +3,7 @@ template: post
 title: 'Einstein Search - Smart and Fast Way to Search '
 subtitle: ''
 date: 2020-07-30T00:00:00+05:30
-thumb_img_path: "/images/maxresdefault.jpg"
+thumb_img_path: "/images/einstein-search-rajat.png"
 content_img_path: ''
 excerpt: ''
 
@@ -36,6 +36,8 @@ Even though it is still in the beta phase but it brings out a lot of features fo
    Einstein Search interprets that question as sort of a human would. Einstein generates a SOSL query according to the input of the user and returns the query results. IT supports the most common filter concepts like status, location, and ownership.
 
    ![](/images/natural.png)
+
+   ![](/images/rajat.png)
 3. **Actionable**
 
    Einstein Search will increase productivity by not solely displaying the foremost relevant info for every user, however, conjointly serves up customizable actions within the search results. For instance, rather than looking for an opportunity, clicking into their record, then manually attaching the opportunity to the opportunity product, you'll be able to take these same actions simply by Einstein Search bar. Einstein Search may result in a up to 50% reduction in clicks.
