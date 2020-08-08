@@ -4,7 +4,7 @@ title: 'Einstein Search - Smart and Fast Way to Search '
 subtitle: ''
 date: 2020-07-30T00:00:00+05:30
 thumb_img_path: "/images/einstein-search-rajat.png"
-content_img_path: ''
+content_img_path: "/images/maxresdefault-1.jpg"
 excerpt: ''
 
 ---
