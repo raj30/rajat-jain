@@ -1,6 +1,6 @@
 ---
 template: post
-title: 'Einstein Search - Smart And Fast Way To Search '
+title: 'Einstein Search - Smart and Fast Way to Search '
 subtitle: ''
 date: 2020-07-30T00:00:00+05:30
 thumb_img_path: "/images/maxresdefault.jpg"
