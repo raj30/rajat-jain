@@ -3,7 +3,7 @@ template: post
 title: 'Einstein Search - Smart Way to Search '
 subtitle: ''
 date: 2020-07-31T00:00:00+05:30
-thumb_img_path: ''
+thumb_img_path: "/images/maxresdefault.jpg"
 content_img_path: ''
 excerpt: ''
 
